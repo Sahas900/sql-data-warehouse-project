@@ -1,7 +1,5 @@
 # SQL Data Warehouse & Analytics Project
 
-## 📌 Project Overview
-
 This project demonstrates the design and implementation of a modern SQL Server data warehouse using CRM and ERP source data.
 
 The project follows a Bronze–Silver–Gold layered architecture to ingest raw data, perform data cleaning and transformation, integrate multiple source systems, and create business-ready analytical views using a Star Schema.
