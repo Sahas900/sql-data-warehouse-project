@@ -1,12 +1,19 @@
 # SQL Data Warehouse & Analytics Project
 
-## 📌 Project Overview
+Welcome to the **SQL Data Warehouse and Analytics Project** repository! 🚀
 
-This project demonstrates the design and implementation of a modern SQL Server data warehouse using CRM and ERP source data.
+This project demonstrates a complete data warehousing and analytics solution using **SQL Server**, from integrating raw data from multiple source systems to building a structured, business-ready data warehouse. The project follows a **Bronze, Silver, and Gold layer architecture** to ensure efficient data ingestion, cleaning, transformation, integration, and analytical reporting. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
-The project follows a Bronze–Silver–Gold layered architecture to ingest raw data, perform data cleaning and transformation, integrate multiple source systems, and create business-ready analytical views using a Star Schema.
+---
 
-The warehouse is designed to provide a reliable and structured foundation for SQL-based data analysis and business intelligence reporting.
+## 📖 Project Overview
+
+This project involves:
+
+1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
+2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
+4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
 ---
 
@@ -19,6 +26,8 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 1. **Bronze Layer**: Stores raw data as it is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
+---
 
 ## 🚀 Project Requirements
 
